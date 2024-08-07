@@ -1,0 +1,98 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    width: 400px;
+    padding: 20px;
+    background-color: #f4f5f7;
+    color: #172b4d;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #0079bf;
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    background-color: #5aac44;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 3px;
+    transition: background-color 0.3s;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.btn:hover {
+    background-color: #519839;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+.btn-small {
+    background-color: #cf513d;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    font-size: 12px;
+    cursor: pointer;
+    border-radius: 3px;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+}
+
+.btn-small:hover {
+    background-color: #b04632;
+}
+
+.select, .input, .textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #dfe1e6;
+    border-radius: 3px;
+    font-size: 14px;
+}
+
+.select {
+    appearance: none;
+    background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23007CB2%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E');
+    background-repeat: no-repeat;
+    background-position: right 10px top 50%;
+    background-size: 12px auto;
+}
+
+.textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+.notification {
+    background-color: #61bd4f;
+    color: white;
+    padding: 10px;
+    border-radius: 3px;
+    text-align: center;
+    margin-top: 10px;
+}

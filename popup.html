@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trello Task Creator</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="login-section">
+        <h1>Trello Task Creator</h1>
+        <p>Please log in to Trello to get started</p>
+        <button id="login" class="btn">Login to Trello</button>
+    </div>
+
+    <div id="task-section" style="display:none;">
+        <h1>Create Trello Task</h1>
+        <select id="board-select" class="select"></select>
+        <select id="list-select" class="select"></select>
+        <input type="text" id="task-title" class="input" placeholder="Task title">
+        <textarea id="task-desc" class="textarea" placeholder="Task description"></textarea>
+        <button id="create-task" class="btn">Create Task</button>
+        <div id="task-created" class="notification" style="display:none;">
+            Task created successfully!
+        </div>
+        <button id="logout" class="btn-small">Logout</button>
+    </div>
+
+    <button id="donate-button" class="btn-primary" style="display:none;">Support the author</button>
+
+    <script src="popup.js"></script>
+</body>
+</html>
